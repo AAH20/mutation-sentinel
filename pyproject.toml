@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mutation-sentinel"
+version = "1.0.0"
+description = "Adversarial AST Mutation Testing Engine for AI Coding Agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Antigravity Autonomous Engineering", email = "engineering@antigravity.dev"}]
+dependencies = []
+
+[project.scripts]
+mutation-sentinel = "mutation_sentinel.cli:main"
